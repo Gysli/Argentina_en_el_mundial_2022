@@ -1,0 +1,129 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #73ACDF;
+}
+
+
+header {
+    background:  #73ACDF;
+    padding: 20px 0;
+    
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 1500px;
+    
+
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 100px 40px;
+   
+}
+
+nav a{
+    
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #19c7c7;
+    text-decoration: underline;
+}
+
+.banner, .banner2{
+    width: 100%;
+    height: 400px;
+    
+
+}
+
+
+.principal{
+    padding: 3em 0;
+    background: #73ACDF;
+    width: 940px;
+    margin: 0 auto; 
+    
+   
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 4em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.principal p{
+    font-size: 40px;
+    margin: 0 0 1em;
+    text-align: justify;
+}
+
+.texto p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 0 1em;
+}
+
+.cajahistoria{
+    width: 940px;
+    position: relative;
+    margin: 0 1000px;
+}
+
+footer{
+    text-align: center;
+    margin:40px;
+    background-color: #58a3e0;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+    background:  #73ACDF;
+}
+.copyright{
+    color:hsl(0, 0%, 6%);
+    font-size: 30px;
+    background:  #73ACDF;
+    
+}
+
+.cajahistoria li{
+    display: inline;
+    margin: 0 0 300px 40px;
+   
+}
+
+.cajahistoria a{
+    
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+.cajahistoria:hover{
+    color: #73ACDF;
+    text-decoration: underline;
+}
+
+.imagenes li{
+
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+}
